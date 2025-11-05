@@ -42,11 +42,12 @@ The project demonstrates clean architecture, modular structure, and secure authe
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| **GET** | `/items` | Get all items |
-| **GET** | `/items/:id` | Get item by ID |
-| **POST** | `/items` | Create a new item |
-| **PUT** | `/items/:id` | Update item |
-| **DELETE** | `/items/:id` | Delete item |
-| **POST** | `/auth/login` | Login and receive JWT |
+| **GET** | `/api/products/` | Get all products |
+| **GET** | `/api/products/:id` | Get product by ID |
+| **POST** | `/api/products/` | Add product |
+| **PUT** | `/api/products/:id` | Update product by ID |
+| **DELETE** | `/api/products/:id` | Delete product by ID |
+| **POST** | `/api/auth/reigster` | Register |
+| **POST** | `/api/auth/login` | Login and receive JWT token |
 
 

@@ -1,5 +1,5 @@
 # nestjs-api
-This is a backend CRUD API built using **NestJS**, **TypeORM**, **JWT Authentication**, and tested with **Postman**.  
+This is a backend CRUD API built using **NestJS**, **MariDB**, **TypeORM**, **JWT Authentication**, and tested with **Postman**.  
 The project demonstrates clean architecture, modular structure, and secure authentication flows.
 
 

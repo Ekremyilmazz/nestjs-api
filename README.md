@@ -50,4 +50,20 @@ The project demonstrates clean architecture, modular structure, and secure authe
 | **POST** | `/api/auth/reigster` | Register |
 | **POST** | `/api/auth/login` | Login and receive JWT token |
 
+## ✅ Register
+- **POST** `/auth/register`
+- ```json
+{
+  "email": "user@example.com",
+  "password": "yourpassword"
+}
+
+## 🔐 Authentication
+- Login and receive a **JWT token**
+- Add token to **Headers**
+- Protected routes can only be accessed with a valid token
+
+  ## Testing with Postman
+  
+
 

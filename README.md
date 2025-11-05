@@ -52,7 +52,6 @@ The project demonstrates clean architecture, modular structure, and secure authe
 
 ## ✅ Register
 - **POST** `/auth/register`
-- ```json
 {
   "email": "user@example.com",
   "password": "yourpassword"

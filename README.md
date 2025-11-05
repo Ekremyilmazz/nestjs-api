@@ -68,13 +68,13 @@ The project demonstrates clean architecture, modular structure, and secure authe
 <img width="984" height="638" alt="Image" src="https://github.com/user-attachments/assets/0bcf67ac-7cbb-452a-9d45-43ad6aa6aea5" />
 ## User Login and receive token
 <img width="977" height="633" alt="Image" src="https://github.com/user-attachments/assets/4fefecdd-baab-4924-85ab-e29e21c7ecdc" />
-### Get all products with token
+## Get all products with token
 <img width="983" height="634" alt="Image" src="https://github.com/user-attachments/assets/4be0913d-e555-41ed-9a28-45f33e69b779" />
-### Get product by ID
+## Get product by ID
 <img width="986" height="629" alt="Image" src="https://github.com/user-attachments/assets/592e97de-9a35-4d78-82a6-34d141b0a0a9" />
-### Update product by ID
+## Update product by ID
 <img width="982" height="631" alt="Image" src="https://github.com/user-attachments/assets/82196c34-80e7-4a92-aa58-1dcac1c96474" />
-### Delete product by ID
+## Delete product by ID
 <img width="985" height="629" alt="Image" src="https://github.com/user-attachments/assets/549ca290-0c1b-415e-848f-c714fcacb346" />
 
 

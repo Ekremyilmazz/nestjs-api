@@ -2,36 +2,51 @@
 This is a backend CRUD API built using **NestJS**, **MariDB**, **TypeORM**, **JWT Authentication**, and tested with **Postman**.  
 The project demonstrates clean architecture, modular structure, and secure authentication flows.
 
+## 🚀 Features
+- User authentication with JWT  
+- Protected routes using Auth Guard  
+- CRUD operations (Create, Read, Update, Delete)  
+- PostgreSQL (or MySQL) database interaction via TypeORM  
+- Error handling & validation  
+- Postman collection for testing
+
+## 🛠️ Technology Stack
+- **NestJS** | Backend framework (modular architecture)
+- **MariaDB** | Relational database used for data storage
+- **TypeORM** | ORM for database operations
+- **JWT** | Authentication & authorization
+- **Postman** | API testing and documentation
+
+## 🔧 Installation & Setup
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/Ekremyilmazz/nestjs-api.git
+2. Install dependencies
+   ```
+   npm install
+3. Create .env file
+   ```
+   DB_HOST=localhost
+   DB_PORT=5432
+   DB_USERNAME=xxxx
+   DB_PASSWORD=xxxx
+   DB_NAME=nestjs_api
+   JWT_SECRET=your-secret-key
+4. Run the project
+   ```bash
+   npm run start:dev
+
+## ✅ API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| **GET** | `/items` | Get all items |
+| **GET** | `/items/:id` | Get item by ID |
+| **POST** | `/items` | Create a new item |
+| **PUT** | `/items/:id` | Update item |
+| **DELETE** | `/items/:id` | Delete item |
+| **POST** | `/auth/login` | Login and receive JWT |
 
 
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
